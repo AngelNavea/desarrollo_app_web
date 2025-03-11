@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+/*    outline: solid 1px orange;*/
+}
+
+.container{
+    background-color: gray;
+    width: 950px;
+    margin: 0 auto; /*centra horizontalmente dentro de su contenedor*/
+    padding: 20px; 
+}
+.top-nav{
+    width: 100%;/* ancho total pantalla*/
+    height: 150px;
+    background-color: green;
+}
+.main{
+    display: flex;
+    margin-top: 20px;
+
+}
+.left{
+    background-color: blue;
+    height: 300px;
+    flex: 1;
+    margin-right: 10px;
+}
+.right{
+    margin-left: 10px;
+    background-color: red;
+    height: 400px;
+    flex: 3;
+}
+.row{
+    height: 200px;
+    display: flex;
+    padding: 20px;
+    gap: 20px; /* separa elementos dentro del cubo*/
+}
+.yellow{
+    flex: 1;
+    background-color: yellow;
+}
+
+.row2{
+    background-color: purple;
+    height: 100px;  
+    margin: 0px 20px 0px 20px;
+}
