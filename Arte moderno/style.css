@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    outline: solid 1px orange;
+}
+
+.negro{
+    background-color: gray;
+    width: 950px;
+    margin: 0 auto; /*centra horizontalmente dentro de su contenedor*/
+    padding: 20px; 
+}
+.rojo{
+    width: 100%;/* ancho total pantalla*/
+    height: 150px;
+    background-color: green;
+}
+.main{
+    display: flex;
+    margin-top: 20px;
+
+}
