@@ -3,7 +3,14 @@
     padding: 0;
     outline: solid 1px orange;
 }
+
+.centro{
+    display: flex;
+    align-items: center;
+    height: 60em;
+}
 .negro{
+
     background-color: black;
     width: 950px;
     margin: 0 auto;
