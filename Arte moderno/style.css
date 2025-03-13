@@ -1,22 +1,39 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     outline: solid 1px orange;
 }
-
 .negro{
-    background-color: gray;
+    background-color: black;
     width: 950px;
-    margin: 0 auto; /*centra horizontalmente dentro de su contenedor*/
-    padding: 20px; 
+    margin: 0 auto;
+    padding: 20px;
 }
-.rojo{
-    width: 100%;/* ancho total pantalla*/
+.top-nav{
+    width: 20%;
     height: 150px;
-    background-color: green;
+    background-color:white;
+}
+.blanco{
+    background-color: white;
+    height: 250px;
+    width: 20%;
+    gap: 20px;
+    margin-top: 20px
 }
 .main{
     display: flex;
     margin-top: 20px;
-
+}
+.left{
+    background-color: white;
+    height: 300px;
+    flex: 1;
+    margin-right: 10px;
+}
+.right{
+    margin-left: 10px;
+    background-color: yellow;
+    height: 400px;
+    flex: 3;
 }

@@ -5,7 +5,7 @@
 }
 
 .container{
-    background-color: gray;
+    background-color: gray; 
     width: 950px;
     margin: 0 auto; /*centra horizontalmente dentro de su contenedor*/
     padding: 20px; 
