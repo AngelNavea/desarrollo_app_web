@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    outline: solid 1px orange;
+    outline: solid 1px black;
 }
 .container{
     display: flex;
@@ -12,9 +12,31 @@
 }
 .left{
 flex:1;
-background-color: blue;
+
 }
 .right{
 flex: 3;
-background-color: red;
+}
+.white{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px ;
+}
+.whites{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    margin: 3px ;
+}
+.blue{
+    background-color: blue;
+    width: 100%;
+    height: 240px;
+    margin-bottom: 30px ;
+}
+.red{
+    background-color: red;
+    width: 600px;
+    height: 530px;
 }
