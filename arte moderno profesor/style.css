@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    outline: solid 1px black;
+/* outline: solid 1px gray;*/
 }
 .container{
     display: flex;
@@ -9,10 +9,10 @@
     width: 800px;
     height: 800px;
     margin: auto;
+    border: solid 30px blanchedalmond;
 }
 .left{
-flex:1;
-
+flex:1; 
 }
 .right{
 flex: 3;
@@ -21,22 +21,43 @@ flex: 3;
     background-color: white;
     width: 100%;
     height: 250px;
-    margin-bottom: 30px ;
+    margin-bottom: 25px ;
 }
 .whites{
     background-color: white;
     width: 100%;
     height: 250px;
-    margin: 3px ;
+    margin: 20px;
+    flex: 6;
+}
+.esquina{
+    flex: 1;
 }
 .blue{
     background-color: blue;
     width: 100%;
-    height: 240px;
-    margin-bottom: 30px ;
+    height: 250px;
 }
 .red{
     background-color: red;
     width: 600px;
     height: 530px;
+    margin-left: 20Px;
 }
+.divisor{
+    display: flex;
+}
+.amarillo{
+    background-color: yellow;
+    width: 100px;
+    height: 110px;
+    margin-top: 40px;
+}
+.blanco{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+
