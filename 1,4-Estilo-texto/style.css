@@ -4,17 +4,30 @@
     outline: solid 1px orange;
 }
 
+.container{
+    
+}
+
 .fila1{
     background-color: #000101;
+    text-align: start;
+}
+
+.h1{
     color: #fefeff;
 }
 
-.flia2{
+.span{
+    color: #00fefe;
+}
+
+.fila2{
     background-color: #673299;
     color: #fefeff;
 }
 
-.flia3{
+.fila3{
     background-color: #9ec5f9;
     color: #231250;
+    text-decoration: underline;
 }
