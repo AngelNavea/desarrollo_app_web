@@ -1,5 +1,42 @@
 *{
     margin:0;
     padding:0;
-    outline: solid 1px orange;
+    /*outline: solid 1px orange;*/
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+}
+
+.main{
+    margin-bottom: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+img{
+    height: 200px;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.orange_yellow{
+    background-color: #e75f03;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+h1{
+    font-size:50px;
+    color: gray;
 }
