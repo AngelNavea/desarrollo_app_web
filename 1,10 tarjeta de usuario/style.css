@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    /*outline: solid 1px orange;*/
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px 1px;
+}
+
+.azul{
+    height: 100px;
+    background-color: #42a2b8;
+}
+.user{
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.blanco{
+    margin-top: 100px;
+    margin-left: 30px;
+    height: 170px;
+
+}
+
+.ubi{
+    width: 10px;
+    margin-top: 10px;
+}
+
+.tuerca{
+    width: 20px;
+    margin-top: 10px;
+}
+
+.bajar{
+    margin-top: 10px;
+}
