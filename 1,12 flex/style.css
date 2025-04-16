@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    outline: solid 1px orange;
+}
+
+.container{
+    background-color: #fcf7ec;
+    height: 500px;
+
+}
+
+.azul{
+    background-color: #34495e;
+    
+}

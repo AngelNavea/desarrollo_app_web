@@ -18,6 +18,8 @@
     height: 160px;
     margin-top: 20px;
     margin-left: 30px;
+    border: solid 5px white;
+    border-radius: 100px;
 }
 
 .blanco{
