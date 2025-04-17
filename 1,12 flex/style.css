@@ -8,7 +8,8 @@
     background-color: #fcf7ec;
     margin: 0 auto;
     margin-top: 100px;
-    
+    height: 100%;
+    color: white;
 }
 
 .azul{
@@ -22,16 +23,21 @@
 }
 
 h1{
-    color:#ffffff;
     text-align: center;
     margin-bottom: 20px;
 }
 
 h3{
-    color: #ffffff;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .blanco{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
 
+.colores{
+    
 }
