@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    /*outline: solid 1px orange;*/
+}
+
+/*La separacion de la parte de izquierda y derecha*/
+.cabeza{
+    display: flex;
+}
+/*La parte de la izquierda de la pagina*/
+.izquierda{
+    flex: 1;
+    text-align:start;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+/*la separacion de texto y imagnes*/
+.separacion{
+    margin-top: 60px;
+    margin-left: 10px;
+    display: flex;
+    width: 20px;
+}
+
+.junto{
+    flex: 1;
+}
+
+.junto2{
+    flex: 1;
+}
+
+.junto3{
+    flex: 1;
+}
+
+.alin{
+    width: 10px;
+}
+
+.galleta{
+    margin-top: 300px;
+    width: 60px;
+}
+
+
+/*La prate derecha de la pagina*/
+.derecha{
+    flex: 6;
+    text-align: center;
+    margin-top: 20px;
+}
+/*Alineacion de imagenes*/
+.alineacion{
+    display: flex;
+    margin-top: 20px;
+}
+
+.img1{
+    flex: 1;
+}
+
+.img2{
+    flex: 1;
+}
+
+.img3{
+    flex: 1;
+}
+
+.titulo{
+    margin-bottom: 10px;
+}
+
+h1{
+    color: #322e55;
+    margin-left: 10px;
+}
+
+h4{
+    color: #716c86;
+}
+
+h3{
+    color: #716c86;
+}
+
+h5{
+    color: #716c86;
+}
+
+/*No mostrar linea de abajo de links*/
+li{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #716c86;
+}
+
