@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    outline: solid 1px orange;
+}
+
+.base{
+    text-align: center;
+}
+
+.ariva{
+    background-color: #34495e;
+    color: white;
+    height: 150px;
+    align-content: center;
+}
+
+.cubo{
+    display: flex;
+}
+
