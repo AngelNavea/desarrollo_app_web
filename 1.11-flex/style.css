@@ -6,16 +6,45 @@
 
 .base{
     text-align: center;
+    color: white;
 }
 
 .ariva{
     background-color: #34495e;
-    color: white;
     height: 150px;
     align-content: center;
 }
 
 .cubo{
     display: flex;
+    padding: 90px;
 }
 
+.blanco{
+    
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px white;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.naranjo{
+    background-color: #e77e23;
+    height: 200px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.flexExtra{
+    display: flex;
+}
+
+.orange{
+    background-color: #d25401;
+    border-radius: 10px;
+    height: 200px;
+    align-content: center;
+}
+
+h3{
+}
