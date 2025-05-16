@@ -4,7 +4,7 @@
     font-size: 30px;
 }
 
-.container{
+.container {
     height: 200px;
     padding: 100px;
     display: flex;
@@ -14,8 +14,9 @@
 }
 
 .container button{
-    background-color: orange;
+    background-color: blue;
     padding: 30px;
-    color: yellow;
+    color:  yellow;
     border-radius: 10px;
 }
+
