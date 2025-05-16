@@ -5,18 +5,22 @@
 }
 
 .container {
-    height: 200px;
     padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 100px;
+    background-color: black;
+    color: white;
 }
 
 .container button{
     background-color: blue;
     padding: 30px;
-    color:  yellow;
+    color:  cyan;
     border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
