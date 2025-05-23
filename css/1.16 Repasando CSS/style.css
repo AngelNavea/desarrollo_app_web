@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    outline: solid 1px orange;
+}
+.container{
+    display: flex;
+    padding: 100px;
+    margin: auto; 
+    flex-direction: column;
+    
+}
+
+.arriba{
+    flex: 1;
+    margin-bottom: 30px;
+}
+.abajo{
+    flex: 1;
+
+}
+
+.flex1{
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.flex2{
+    flex: 1;
+}
+
+.cubo_1{
+    background-color: #b2b5b4;
+    padding: 50px;
+}
+.cubo_2{
+    background-color: #b2b5b4;
+    padding: 50px;
+}
+
+.cubo_3{
+    background-color: #b2b5b4;
+    padding: 50px;
+    flex: 1;
+}
+
+.cubo_4{
+    background-color: #b2b5b4;
+    padding: 50px;
+}
+
+.cubo_5{
+    background-color: #b2b5b4;
+    padding: 50px;
+}
