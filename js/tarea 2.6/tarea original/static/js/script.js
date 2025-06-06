@@ -94,9 +94,19 @@ function agregacion_y_elinacionN() {
     alert (`cola de clientes: ${nombres}`);
 }
 
+/*ejercicio 10*/
+let pila=[];
 
-
-
+function agregasion_eliminacion_pila() {
+    let pila_agragacion1 =prompt("agrege el primer elemto de pila: ");
+    let pila_agragacion2 =prompt("agrege el segundo elemto de pila: ");
+    let pila_agragacion3 =prompt("agrege el tercer elemto de pila: ");
+    pila.push(pila_agragacion3);
+    let primera_elinacion = pila.pop();
+    let segunda_elinacion = pila.pop();
+    alert (`mensaje eliminado: ${primera_elinacion}`);
+    alert (`mensaje eliminado: ${segunda_elinacion}`);
+}
 
 
 
