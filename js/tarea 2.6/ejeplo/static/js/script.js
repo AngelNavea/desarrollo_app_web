@@ -19,6 +19,6 @@ function usarUnshift() {
 }
 
 function usarShift() {
-        let basurero = array.shift();
+    let basurero = array.shift();
     alert(`elemento eliminado: ${basurero}`);
 }
