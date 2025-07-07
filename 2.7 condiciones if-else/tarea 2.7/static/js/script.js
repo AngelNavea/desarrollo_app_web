@@ -86,8 +86,33 @@ function saludo_persona(){
     let nombre = prompt("escriba su nombre: ");
     let saludos = ["hola"];
     saludos.push(nombre);
-    document.getElementById("resultado").innerHTML =`<p><strong>-${saludos} -</strong> </p>`;
+    document.getElementById("resultado").innerHTML =`<p><strong>-${saludos.join(" - ")} -</strong> </p>`;
     if (nombre==""){
         document.getElementById("resultado").innerHTML =`<p><strong>-Nombre no válido-</strong> </p>`;
     }
 }
+
+// ✅ Ejercicio 6: Calificar nota
+// Declara la variable nota con un valor entre 1 y 7.
+// Si nota >= 6: muestra "Excelente".
+// Si nota >= 4: muestra "Aprobado".
+// Si nota < 4: muestra "Reprobado".
+
+function notas_calificacion(){
+    let nota =prompt("ponga su nota: ");
+    if (nota >= 6){
+        document.getElementById("resultado").innerHTML =`<p><strong>-exelente-</strong> </p>`;
+    }
+    else if (nota >=4){
+        document.getElementById("resultado").innerHTML =`<p><strong>-aprobado-</strong> </p>`;
+    }
+    else if (nota <4){
+        document.getElementById("resultado").innerHTML =`<p><strong>-reprobado-</strong> </p>`;
+    }
+}
+
+// ✅ Ejercicio 7: Registro de visitantes
+// Crea un arreglo vacío visitas y una variable persona.
+//  Si el nombre no está vacío, usa unshift() para añadirlo al inicio.
+//  Si está vacío, muestra "Error: nombre vacío".
+
