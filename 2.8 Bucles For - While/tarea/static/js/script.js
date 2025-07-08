@@ -85,25 +85,48 @@ function tabla_multiplicacion(){
 
 /*✅ Ejercicio 6: Sumar hasta que se ingrese cero
 Con while, sigue pidiendo números con prompt() y súmalos, hasta que el usuario escriba 0. Muestra el total acumulado.*/
-let suma_acumulada= [];
-function sumar_hasta_cero(){
-    let suma= 0;
+// let suma_acumulada= [];
+// function sumar_hasta_cero(){
+//     let suma= 0;
+//     let numero;
+//     suma_acumulada= [];
+//     document.getElementById("resultado6").innerHTML = "";
+//     while (true) {
+//         dumero = parseFloat(prompt("introduce un numero para sumar(0 para parar): "));
+//         if (isNaN(numero)){
+//             document.getElementById("resultado6").innerHTML = `<p>por favor, introduce un numero valido.</p>`
+//             return
+//         }
+//         if (numero=== 0){
+//             break
+//         }
+//         suma += numero
+//         suma_acumulada.push(numero)
+//     }
+//     document.getElementById("resultado6").innerHTML=`<p>numero sumados: <strong>${suma_acumulada.join(", ")}</strong><br>total acumulado: <strong>${suma}</strong></p>`
+
+// }
+
+let sumaAcumulada = [];
+function sumarHastaCero(){
+    let suma = 0;
     let numero;
-    suma_acumulada= [];
+    sumaAcumulada = [];
     document.getElementById("resultado6").innerHTML = "";
     while (true) {
-        dumero = parseFloat(prompt("introduce un numero para sumar(0 para parar): "));
+        numero = parseFloat(prompt("Introduce un número para sumar (0 para terminar)"));
         if (isNaN(numero)){
-            document.getElementById("resultado6").innerHTML = `<p>por favor, introduce un numero valido.</p>`
+            document.getElementById(resultado6).innerHTML =
+            "<p>Por favor, introduce un número valido.</p>"
             return
         }
-        if (numero=== 0){
+        if (numero === 0){
             break
         }
         suma += numero
-        suma_acumulada.push(numero)
+        sumaAcumulada.push(numero)
     }
-    document.getElementById("resultado6").innerHTML=`<p>numero sumados: <strong>${suma_acumulada.join}</strong> </p>`
-
+    document.getElementById("resultado6").innerHTML =
+    `<p>Números sumados: <strong>${sumaAcumulada.join(", ")}
+    </strong><br>Total acumulado: <strong>${suma}</strong></p>`
 }
-
