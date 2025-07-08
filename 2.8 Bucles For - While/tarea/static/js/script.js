@@ -103,7 +103,7 @@ function sumar_hasta_cero(){
         suma += numero
         suma_acumulada.push(numero)
     }
-    document.getElementById("resultado6").innerHTML=`<p>numero sumados: <strong>$suma_acumulada</strong> </p>`
+    document.getElementById("resultado6").innerHTML=`<p>numero sumados: <strong>${suma_acumulada.join}</strong> </p>`
 
 }
 
