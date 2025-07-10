@@ -130,3 +130,11 @@ function sumarHastaCero(){
     `<p>Números sumados: <strong>${sumaAcumulada.join(", ")}
     </strong><br>Total acumulado: <strong>${suma}</strong></p>`
 }
+
+// ✅ Ejercicio 7: Mostrar letras de una palabra
+// Pide al usuario una palabra y usa un for para mostrar cada letra por separado en el HTML.
+
+function mostrarletras(){
+    
+}
+
