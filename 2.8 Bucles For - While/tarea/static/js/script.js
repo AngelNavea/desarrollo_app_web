@@ -133,8 +133,12 @@ function sumarHastaCero(){
 
 // ✅ Ejercicio 7: Mostrar letras de una palabra
 // Pide al usuario una palabra y usa un for para mostrar cada letra por separado en el HTML.
-
+let deletreo =[];
 function mostrarletras(){
-    
+    let palabra = prompt("escriba una palabra a deletrar: ");
+    for(n= 1; n>=20; n++){
+        deletreo =palabra
+        
+    }
 }
 
